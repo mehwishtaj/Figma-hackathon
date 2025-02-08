@@ -142,7 +142,7 @@ const Home = () => {
   return (
     <div>
       <Hero />
-       <Hero1 /> 
+      <Hero1 />
       <div className="bg-gray-100 text-[#90A3BF] min-h-screen p-6">
         <div className="max-w-7xl mx-auto">
           {/* Popular Cars Section */}
@@ -165,7 +165,7 @@ const Home = () => {
           {/* Show More Button */}
           <section className="w-full py-8 text-center">
             <Link href="/categoriesPage">
-              <button className="bg-[#3563E0] hover:bg-blue-700 transition-colors px-6 py-3  text-white rounded-md mt-8">
+              <button className="bg-[#3563E0] hover:bg-blue-700 transition-colors px-5 py-3.5  text-white rounded-md mt-8">
                 Show more cars
               </button>
             </Link>
@@ -226,7 +226,7 @@ const CarCard = ({ car }) => (
           <p className="text-sm text-gray-500 line-through">${car.discount}</p>
         )}
       </div>
-      <button className="bg-[#3563E9] text-white px-4 py-2 rounded hover:bg-blue-700">
+      <button className="bg-[#3563E9] text-white px-4 py-2.5 rounded-md hover:bg-blue-700">
         Rent Now
       </button>
     </div>

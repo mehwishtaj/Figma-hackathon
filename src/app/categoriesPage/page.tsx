@@ -168,7 +168,7 @@ const CategoriesPage = () => {
                       </p>
                     )}
                   </div>
-                  <button className="bg-[#3563E9] text-white px-4 py-2 rounded hover:bg-blue-700">
+                  <button className="bg-[#3563E9] text-white px-4 py-2.5 rounded-md hover:bg-blue-700">
                     Rent Now
                   </button>
                 </div>
@@ -179,8 +179,8 @@ const CategoriesPage = () => {
 
         {/* Show More Button */}
         <div className="flex justify-center mt-8">
-          <Link href="/DetailPage">
-            <button className="bg-[#3563E9] text-white px-6 py-2 rounded hover:bg-blue-700">
+          <Link href="/detailPage">
+            <button className="bg-[#3563E9] text-white px-5 py-3 rounded-md hover:bg-blue-700">
               Show more cars
             </button>
           </Link>

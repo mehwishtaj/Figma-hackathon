@@ -5,7 +5,7 @@ const Sidebar = () => {
     <div className="min-h-screen w-1/4 h-auto bg-white p-6 shadow-md">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-6">
-          {/* Sidebar */}
+          
           <div className="w-full bg-white p-4 rounded-lg ">
             <h2 className="text-sm text-[#90A3BF] font-semibold mb-4">Type</h2>
             <ul>
